@@ -1,4 +1,51 @@
-.About{
+.about{
     width: 100%;
     height: 1920px;
+    background-color: #F8F9FB;
+}
+.bigcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F8F9FB;
+}
+.otsikko{
+    font-size: 50px;
+    color: black;
+}
+.otsikkocontainer{
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.otsikkocontainer2{
+    width: 90%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: black;
+    font-size: 40px;
+}
+.three-container{
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.kuva{
+    width: 200px;
+    height: 200px;
+}
+.box-33{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
