@@ -14,10 +14,10 @@ function App() {
       <Navbar/>
       <Landing/>
       <About/>
-      <Autopesut/>
+      {/*<Autopesut/>
       <Tuotteet/>
       <Contacts/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
