@@ -1,0 +1,47 @@
+.navbar {
+    height: 8rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+    color: rgb(48, 147, 197);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.loko {
+    display: flex;
+}
+
+.Logo {
+   object-fit: cover;
+    height: 5rem;
+    width: 8.25rem;
+}
+
+.lokoText {
+    font-family: 'Russo One', sans-serif;
+    padding-top: 1.5rem;
+    padding-left: 0.75rem;
+}
+
+.linkMenuItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+}
+
+.linkMenuItem:hover {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 147, 197);
+    padding: 0.6rem;
+    border-radius: 2rem;
+}

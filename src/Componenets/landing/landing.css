@@ -1,0 +1,9 @@
+.landing {
+    
+    margin: 0 auto;
+}
+
+.video {
+    object-fit: cover;
+    width: 100vw;
+}
