@@ -15,13 +15,19 @@ const About = () => {
                </div>
                <div className="three-container">
                <div className="box-33">
-               <p>Laatu</p>
+               <h2>Laatu</h2>
+               <p>Parasta laatua koko suomessa parhaalla hinnalla</p>
+               <img className="kuva" src="/images/about1.jpg" alt="Laatu"></img>
                </div>
                <div className="box-33">
-               <p>Nopeus</p>
+               <h2>Nopeus</h2>
+               <p>Modernit pesulaitteet takaavat nopean palvelun</p>
+               <img></img>
                </div>
                <div className="box-33">
-               <p>Toimipaikat</p>
+               <h2>Toimipaikat</h2>
+               <p>AutoHeavenilla on toimipaikkoja ympäri suomen</p>
+               <img></img>
                </div>
                </div>
            </div>
