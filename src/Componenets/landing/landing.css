@@ -1,9 +1,23 @@
 .landing {
-    
-    margin: 0 auto;
+    position: relative;
+    margin-top: -10rem;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .video {
     object-fit: cover;
     width: 100vw;
+    
+}
+
+.overlayText {
+    position: absolute;
+    font-size: 0.9rem;
+    top: 65%;
+    left: 50%;
+    width: 70rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
 }
