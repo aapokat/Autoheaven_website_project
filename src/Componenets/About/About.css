@@ -41,7 +41,9 @@ p{
     align-items: center;
 }
 .kuva{
+    margin-top: 30px;
     z-index: 2;
+    border-radius: 150px;
 }
 .box-33{
     width: 33%;

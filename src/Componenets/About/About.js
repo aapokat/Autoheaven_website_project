@@ -17,17 +17,17 @@ const About = () => {
                <div className="box-33">
                <h2>Laatu</h2>
                <p>Parasta laatua koko suomessa parhaalla hinnalla</p>
-               <img className="kuva" src="/images/about1.jpg" alt="Laatu"></img>
+               <img className="kuva" src="/images/tieto1.jpg" alt="Laatu"></img>
                </div>
                <div className="box-33">
                <h2>Nopeus</h2>
                <p>Modernit pesulaitteet takaavat nopean palvelun</p>
-               <img></img>
+               <img className="kuva" src="/images/tieto2.jpg" alt="Nopeus"></img>
                </div>
                <div className="box-33">
                <h2>Toimipaikat</h2>
                <p>AutoHeavenilla on toimipaikkoja ympäri suomen</p>
-               <img></img>
+               <img className="kuva" src="/images/tieto3.jpg" alt="Toimipaikat"></img>
                </div>
                </div>
            </div>
