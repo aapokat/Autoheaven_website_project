@@ -1,0 +1,10 @@
+.autopesut{
+    margin: 0;
+}
+
+.optionImage {
+    object-fit: cover;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 13rem;
+}

@@ -14,8 +14,8 @@ function App() {
       <Navbar/>
       <Landing/>
       <About/>
-      {/*<Autopesut/>
-      <Tuotteet/>
+      <Autopesut/>
+      {/*<Tuotteet/>
       <Contacts/>
       <Footer/> */}
     </div>
