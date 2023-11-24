@@ -5,6 +5,7 @@ import KemiallinenImg from '../assets/kemiallinen_img.jpg';
 import DetailingImg from '../assets/detailing_img.jpg';
 import ItsepalveluImg from '../assets/itsepalvelu_img.jpg';
 import WaxImg from '../assets/wax_img.jpg';
+import SteamImg from '../assets/steam_img.jpg';
 
 
 const Autopesut = () => {
@@ -24,7 +25,7 @@ const Autopesut = () => {
                 </div>
                 <div className="option">
                     <p className="optionHead">Höyrypesu</p>
-                    <img src="" alt="Höyrypesu Image" className="optionImage" />
+                    <img src={SteamImg} alt="Höyrypesu Image" className="optionImage" />
                     <p className="optionPrice">35€</p>
                 </div>
                 <div className="option">
