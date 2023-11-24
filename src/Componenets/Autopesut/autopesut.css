@@ -1,12 +1,49 @@
 .autopesut{
     margin: 0;
     font-family: 'Russo One', sans-serif;
-    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Headline {
+    padding: 2rem 0;
+    font-size: 1..25rem;
+}
+
+h1 {
+    font-family: 'Russo One';
 }
 
 .optionImage {
     object-fit: cover;
-    height: 13rem;
-    width: 13rem;
-    border-radius: 13rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15rem;
 }
+
+
+
+.options {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+    max-width: 75rem;
+    text-align: center;
+  }
+  
+  .option {
+    position: relative;
+    width: 48%; /* Adjust as needed to leave some space between items */
+    margin: 10px; /* Adjust as needed for spacing */
+    box-sizing: border-box;
+  }
+
+  .option p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: aliceblue;
+  }

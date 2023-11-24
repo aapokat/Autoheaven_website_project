@@ -11,7 +11,9 @@ import SteamImg from '../assets/steam_img.jpg';
 const Autopesut = () => {
     return (
         <div className="autopesut">
-            <h1 className="headline">Yrityksemme tarjoamat palvelut.</h1>
+            <div className="Headline">
+                <h1>Yrityksemme tarjoamat palvelut.</h1>
+            </div>
            <div className="options">
                 <div className="option">
                     <p className="optionHead">Perinteinen käsipesu</p>
