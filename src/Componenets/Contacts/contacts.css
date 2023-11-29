@@ -1,0 +1,65 @@
+.contact {
+    margin: 0 auto;
+    background-color: rgb(235, 75, 75);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.textSection {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 2.5rem 2.25rem 0 2.25rem;
+    font-family: 'poppins';
+}
+
+.textHeadline {
+    font-weight: 600;
+    color: white;
+}
+
+.text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: 'poppins';
+}
+
+
+.palaaBtn {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black ;
+    margin-top: 50px ;
+}
+
+.formSection {
+    background-color: aqua;
+    width: 100%;
+    margin: 1.25rem 1.5rem 1.25rem;
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 40rem;
+}
+
+input {
+    width: 16rem;
+    height: 2.25rem;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    border-color: rgba(0, 0, 0, 0.189);
+}
+
+.viesti {
+    width: 36rem;
+    height: 8rem;
+}
+

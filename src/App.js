@@ -15,8 +15,8 @@ function App() {
       <Landing/>
       <About/>
       <Autopesut/>
-      {/*<Tuotteet/>
       <Contacts/>
+      {/*<Tuotteet/>
       <Footer/> */}
     </div>
   );
