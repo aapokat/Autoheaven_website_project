@@ -1,24 +1,22 @@
-import Navbar from './Componenets/navbar/navbar';
-import Landing from './Componenets/landing/landing';
-import About from './Componenets/About/About';
-import Autopesut from './Componenets/Autopesut/Autopesut';
-import Tuotteet from './Componenets/Tuotteet_osio/Tuotteet';
-import Contacts from './Componenets/Contacts/Contacts';
-import Footer from './Componenets/Footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-
+import Home from './pages/home/home';
+import Tuote_1 from './pages/Tuote_1/tuote1';
 
 function App() {
   return (
-    <div className="app">
-      <Navbar/>
-      <Landing/>
-      <About/>
-      <Autopesut/>
-      <Tuotteet/>
-      {/*<Contacts/>
-      <Footer/> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path='/'
+          element={<Home/>}
+        />
+        <Route
+          path='/Tuote1'
+          element={<Tuote_1/>}
+        />
+      </Routes>
+    </Router>
   );
 }
 
