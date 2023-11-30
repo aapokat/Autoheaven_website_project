@@ -1,3 +1,17 @@
 .Tuote1{
     background-color:#F8F9FB ;
+    height: 100%;
+    width: 100%;
+}
+.tuotecontainer{
+    display: flex;
+    justify-content: center;
+}
+.tuotekuva{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 500px;
+    height: 500px;
+}
+.tuoteesittely{
+    
 }
