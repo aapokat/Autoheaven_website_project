@@ -1,24 +1,68 @@
 .Tuote1{
     background-color:#F8F9FB ;
-    height: 100%;
+    height: calc(100vh - 160px);
     width: 100%;
 }
 .tuotecontainer{
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 .tuotekuvasäilö{
     border: 1px solid rgba(0, 0, 0, 0.8);
-    width: 1000px;
-    height: 1000px;
-    
+    width: 35%;
+    align-items: center;
+    align-self: center;
+    margin: 20px;
 }
 .tuoteesittely{
-    width: 500px;
-    height: 500px;
+    width: 40%;
+    height: 50%;
+    margin: 20px;
 }
 .kuvatuote123{
-    width: 998px;
-    height: 998px;
+    width: 100%;
+    height: 100%;
     align-self: center;
+}
+.tuote1teksti{
+    color: black;
+    font-size: 30px;
+}
+.tuote1otsikko{
+    color: black;
+    font-size: 40px;
+}
+.saatavuuscontainer{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 400px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.saatavuustilanne{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    display: inline-block;
+}
+.saatavuustextcont{
+    height: 60px;
+    width: 200px;
+}
+.saatavuustext{
+    font-size: 60px;
+    color: black;
+}
+.hintasaatavuus{
+    height: 300px;
+    width: 500px;
+}
+.hintatext{
+    font-size: 60px;
+    color: black;
+    margin-top: 30px;
 }
