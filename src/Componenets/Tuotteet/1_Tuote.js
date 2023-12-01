@@ -6,10 +6,12 @@ const Tuote1 = () => {
     return ( 
         <div className="Tuote1">
             <div className="tuotecontainer">
-                <div className="tuotekuva">
-                    <img src="/images/korrekpro.jpg"></img>
+                <div className="tuotekuvasäilö">
+                    <img classname="kuvatuote123" src="/images/korrekpro.jpg"></img>
                 </div>
-
+                <div className="tuoteesittely">
+                    <p>ajsndoaiwdaowbds</p>
+                </div>
 
             
             </div>

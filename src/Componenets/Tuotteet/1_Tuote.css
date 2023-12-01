@@ -7,11 +7,18 @@
     display: flex;
     justify-content: center;
 }
-.tuotekuva{
+.tuotekuvasäilö{
     border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 1000px;
+    height: 1000px;
+    
+}
+.tuoteesittely{
     width: 500px;
     height: 500px;
 }
-.tuoteesittely{
-    
+.kuvatuote123{
+    width: 998px;
+    height: 998px;
+    align-self: center;
 }
