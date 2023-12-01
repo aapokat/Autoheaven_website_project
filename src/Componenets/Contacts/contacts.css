@@ -1,6 +1,6 @@
 .contact {
     margin: 0 auto;
-    background-color: rgb(235, 75, 75);
+    background-color: rgb(111, 170, 209);
     display: flex;
     justify-content: space-around;
     
@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     margin: 2.5rem 2.25rem 0 2.25rem;
     font-family: 'poppins';
+    width: 50rem;
 }
 
 .textHeadline {
@@ -30,10 +31,13 @@
     font-weight: 700;
     color: black ;
     margin-top: 50px ;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
 }
 
 .formSection {
-    background-color: aqua;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
     width: 100%;
     margin: 1.25rem 1.5rem 1.25rem;
     border-bottom-left-radius: 10% 50%;
@@ -42,11 +46,9 @@
     border-bottom-right-radius: 0.75rem;
 }
 
-.form {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 40rem;
+.formHeadline {
+    font-weight: 600;
+    
 }
 
 input {
@@ -55,7 +57,7 @@ input {
     box-sizing: border-box;
     margin: 0.5rem;
     border-radius: 0.3rem;
-    border-color: rgba(0, 0, 0, 0.189);
+    border-color: rgba(0, 0, 0, 0.532);
 }
 
 .viesti {
@@ -63,3 +65,11 @@ input {
     height: 8rem;
 }
 
+.sendBtn {
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    background-color: rgb(111, 170, 209);
+    margin-bottom: 1rem;
+    border: none;
+    color: white;
+}
