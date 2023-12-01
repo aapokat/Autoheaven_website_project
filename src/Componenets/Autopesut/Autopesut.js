@@ -14,6 +14,7 @@ const Autopesut = () => {
             <div className="Headline">
                 <h1>Yrityksemme tarjoamat palvelut.</h1>
             </div>
+            <div className="ok">
            <div className="options">
                 <div className="option">
                     <p className="optionHead">Perinteinen käsipesu</p>
@@ -45,7 +46,7 @@ const Autopesut = () => {
                     <img src={DetailingImg} alt="Detailing pesu Image" className="optionImage" />
                     <p className="optionPrice">60€</p>
                 </div>
-            </div>
+            </div></div>
         </div>
       );
 }

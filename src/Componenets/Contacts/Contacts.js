@@ -9,20 +9,26 @@ const Contacts = () => {
             <div className="textSection">
                 <img src={mailImg} alt="letterImage" />
                 <p className="textHeadline">Ota Yhteyttä</p>
-                <p className="text">Lähetä meille viestiä jos on kysyttävää</p>
+                <p className="text">Lähetä meille viestiä jos on kysyttävää <br /> ja jotain lisätekstiä tähän koska tää on <br /> niin tyhjä</p>
                 <button className="palaaBtn">Palaa alkuun</button>
             </div>
-            <div className="formSection">
+            <form className="formSection">
                 <p className="formHeadline">Lähetä viesti</p>
                 <div className="form">
-                    <input label="Etunimi" type="text" className="first" />
-                    <input label="Sukunimi" type="text" className="last" />
-                    <input label="Email" type="text" className="email" />
-                    <input label="Puhelinnumero" type="text" className="Puh" />
-                    <input label="Viesti" type="text" className="viesti" />
+                    <div className="formRow">
+                        <input label="Etunimi" type="text" className="first" />
+                        <input label="Sukunimi" type="text" className="last" />
+                    </div>
+                    <div className="formRow">
+                        <input label="Email" type="text" className="email" />
+                        <input label="Puhelinnumero" type="text" className="Puh" />
+                    </div>
+                    <div className="formRowBtn">
+                        <input label="Viesti" type="text" className="viesti" />
+                    </div>
                 </div>
                 <button className="sendBtn">Lähetä</button>
-            </div>
+            </form>
         </div>
      );
 }
