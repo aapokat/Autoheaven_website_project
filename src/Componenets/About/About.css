@@ -67,7 +67,7 @@
     font-weight: 600;
     font-family: 'poppins';
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .aboutotsikko {
         font-size: 30px;
     }

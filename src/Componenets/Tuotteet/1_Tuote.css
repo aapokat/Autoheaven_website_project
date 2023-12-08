@@ -66,7 +66,6 @@
     color: black;
     margin-top: 30px;
 }
-/* Media queries */
 @media only screen and (max-width: 1200px) {
     .tuotecontainer {
         flex-direction: column;
@@ -75,7 +74,7 @@
 
     .tuotekuvasäilö,
     .tuoteesittely {
-        width: 80%;
+        width: 70%;
     }
 
     .saatavuuscontainer {
@@ -97,7 +96,7 @@
         font-size: 30px;
     }
     .Tuote1 {
-        height: 1100px;
+        height: auto;
     }
     .saatavuustextcont {
         width: 150px;
