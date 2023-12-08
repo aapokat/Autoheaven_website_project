@@ -15,8 +15,11 @@
 }
 
 .textHeadline {
+    font-size: 1.75rem;
     font-weight: 600;
     color: white;
+    font-family: 'Poppins';
+    margin-bottom: 1rem;
 }
 
 .text {
@@ -47,8 +50,10 @@
 }
 
 .formHeadline {
+    font-size: 1.75rem;
     font-weight: 600;
-    
+    color: black;
+    font-family: 'Poppins';
 }
 
 input {
@@ -66,10 +71,23 @@ input {
 }
 
 .sendBtn {
-    padding: 0.75rem;
-    border-radius: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
     background-color: rgb(111, 170, 209);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border: none;
     color: white;
+    font-family: 'Poppins';
+}
+
+.sendBtn:hover {
+    border: solid 0.25rem rgb(111, 170, 209);
+    background-color: white;
+    color: rgb(111, 170, 209);
+}
+
+.formRowBtn {
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
 }

@@ -17,7 +17,7 @@ const Home = () => {
     <Autopesut/>
     <Tuotteet/>
     <Contacts/>
-    {/* <Footer/> */}
+    <Footer/>
     </>
 
     );

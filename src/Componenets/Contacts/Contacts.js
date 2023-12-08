@@ -16,18 +16,20 @@ const Contacts = () => {
                 <p className="formHeadline">Lähetä viesti</p>
                 <div className="form">
                     <div className="formRow">
-                        <input label="Etunimi" type="text" className="first" />
-                        <input label="Sukunimi" type="text" className="last" />
+                        <input label="Etunimi" placeholder="Etunimi" type="text" className="first" />
+                        <input label="Sukunimi" placeholder="Sukunimi" type="text" className="last" />
                     </div>
                     <div className="formRow">
-                        <input label="Email" type="text" className="email" />
-                        <input label="Puhelinnumero" type="text" className="Puh" />
+                        <input label="Email" placeholder="Email" type="text" className="email" />
+                        <input label="Puhelinnumero" placeholder="Puhelinnumero" type="text" className="Puh" />
                     </div>
-                    <div className="formRowBtn">
-                        <input label="Viesti" type="text" className="viesti" />
+                    <div className="formRow">
+                        <textarea label="Viesti" placeholder="Viestisi meille" type="text" className="viesti" />
                     </div>
                 </div>
+                <div className="formRowBtn">
                 <button className="sendBtn">Lähetä</button>
+                </div>
             </form>
         </div>
      );
