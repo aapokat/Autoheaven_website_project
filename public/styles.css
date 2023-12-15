@@ -13,3 +13,6 @@ body {
     overflow: hidden;
     overflow-y: scroll;
 }
+html {
+    scroll-behavior: smooth;
+}

@@ -23,7 +23,7 @@ const Tuote1 = () => {
                         <p className="hintatext">{data.hinta}</p>
                         <p className="saatavuustext">Saatavuus:</p>
                         <div className="saatavuuscontainer">
-                            <div className="saatavuustilanne">
+                            <div className="saatavuustilanne" style={{backgroundColor: "{data.color}"}}>
                             </div>
                             <div className="saatavuustextcont">
                                 <p className="saatavuustext">
