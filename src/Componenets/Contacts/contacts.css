@@ -38,6 +38,12 @@
     border-radius: 1.5rem;
 }
 
+.palaaBtn:hover {
+    background-color: rgb(111, 170, 209);
+    color: white;
+    border: solid white;
+}
+
 .formSection {
     text-align: center;
     background-color:rgb(255, 255, 255);
@@ -62,11 +68,11 @@ input {
     box-sizing: border-box;
     margin: 0.5rem;
     border-radius: 0.3rem;
-    border-color: rgba(0, 0, 0, 0.532);
+    border: solid rgba(0, 0, 0, 0.532);
 }
 
 .viesti {
-    width: 36rem;
+    width: 33rem;
     height: 8rem;
 }
 
@@ -75,13 +81,13 @@ input {
     border-radius: 2rem;
     background-color: rgb(111, 170, 209);
     margin-bottom: 2rem;
-    border: none;
+    border: solid white;
     color: white;
     font-family: 'Poppins';
 }
 
 .sendBtn:hover {
-    border: solid 0.25rem rgb(111, 170, 209);
+    border: solid  rgb(111, 170, 209);
     background-color: white;
     color: rgb(111, 170, 209);
 }
@@ -91,3 +97,58 @@ input {
     justify-content: end;
     margin-right: 5rem;
 }
+
+textarea {
+    max-width: 33rem;
+    border: solid rgba(0, 0, 0, 0.532);
+    border-radius: 0.3rem;
+}
+
+.form {
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 1090px) {
+    .contact {
+        display: block;
+        max-width: 80vw;
+    }
+
+    .textSection {
+        width: 80vw;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    textarea {
+        max-width: 16rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    textarea {
+        max-width: 16rem;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .contact {
+        margin: auto;
+       
+    }
+
+    .formSection {
+        margin: 1rem 0 1rem 0;
+    }   
+}
+
+
+@media only screen and (max-width: 550px) {
+    .formSection {
+        border-radius: 1rem;
+    }
+    
+    
+}
+  

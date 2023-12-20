@@ -60,6 +60,23 @@
     text-underline-offset: 0.4rem;
 }
 
+.ehdotSection {
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ehdotLink {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.ehdotLink:hover {
+    cursor: pointer;
+    text-decoration: underline solid rgb(255, 255, 255) ;
+    text-underline-offset: 0.4rem;
+}
+
 .addresSection {
     max-width: 40rem;
 }
@@ -81,4 +98,39 @@
 
 .copyright {
     background-color: rgb(29, 85, 113);
+    text-align: center;
 }
+
+
+@media only screen and (max-width: 550px) {
+    .paragraph {
+        display: none;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .footerDownSection {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footerDownSection {
+        padding-top: 0.5rem;
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .rivit {
+        display: grid;
+        place-items: center;
+    }
+    
+    
+}
+

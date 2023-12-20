@@ -32,8 +32,16 @@ const Footer = () => {
                     <Link className="navLink">Tuotteet</Link>
                     <Link className="navLink">Ota yhteyttä</Link>
                 </div>
+                <div className="ehdotSection">
+                    <h1 className="sectionHeadline">Ehdot</h1>
+                    <Link className="ehdotLink">Käyttöehdot</Link>
+                    <Link className="ehdotLink">Tietosuojakäytäntö</Link>
+                    <Link className="ehdotLink">Oikeudelliset tiedot</Link>
+                    <Link className="ehdotLink">EULA</Link>
+                </div>
                 <div className="addresSection">
                     <h1 className="sectionHeadline">Yhteystiedot</h1>
+                    <div className="rivit">
                     <div className="yhteysRivi">
                         <img className='yhteysIcon' src={House} alt="Osoite Icon" />
                         <p className="osoite">Mikonkatu 17 00100 Helsinki Finland</p>
@@ -45,6 +53,7 @@ const Footer = () => {
                     <div className="yhteysRivi">
                         <img className='yhteysIcon' src={Phone} alt="Puhelin Icon" />
                         <p className="puhNro">0600 90 211</p>
+                    </div>
                     </div>
                 </div>
             </div>

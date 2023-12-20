@@ -14,10 +14,10 @@
 
 .overlayText {
     position: absolute;
-    font-size: 0.9rem;
+    font-size: 1.2vw;
     top: 65%;
     left: 50%;
-    width: 70rem;
+    width: 80vw;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
