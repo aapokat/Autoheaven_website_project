@@ -1,13 +1,13 @@
 import Navbar from "../../Componenets/navbar/navbar";
-import Tuote1 from '../../Componenets/Tuotteet/1_Tuote';
+import EULA from '../../Componenets/EULA/Eula';
 import Footer from '../../Componenets/Footer/Footer';
 
-const Tuote_1 = () => {
+const EULAsivu = () => {
     return (
 
     <>
     <Navbar/>
-    <Tuote1/>
+    <EULA/>
     <Footer/>
     </>
 
@@ -16,4 +16,4 @@ const Tuote_1 = () => {
     );
 }
 
-export default Tuote_1;
+export default EULAsivu;
