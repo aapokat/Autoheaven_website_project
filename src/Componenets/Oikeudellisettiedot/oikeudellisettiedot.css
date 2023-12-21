@@ -1,0 +1,22 @@
+.oikeustietocont {
+    background-color:#F8F9FB;
+    text-align: center;
+    justify-content: column;
+    height: 1080px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.oikeusotsikko{
+    color: black;
+    font-size: 30px;
+}
+.oikeusteksti{
+    color: black;
+    font-size: 20px;
+}
+.oikeuslaatikko {
+    width: 80%;
+    align-items: center;
+}
