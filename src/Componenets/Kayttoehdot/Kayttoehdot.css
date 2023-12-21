@@ -1,0 +1,17 @@
+.HeadlineEhdot {
+    margin: 2rem 0 2rem 3rem;
+}
+
+.paraEhdot{
+    color: black;
+    background-color: white;
+    width: 65%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.ehot {
+    display: flex;
+    justify-content: center;
+}

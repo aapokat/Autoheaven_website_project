@@ -1,4 +1,5 @@
 import React from "react";
+
 import './autopesut.css';
 import KasipesuImg from '../assets/kasipesu_img.jpg';
 import KemiallinenImg from '../assets/kemiallinen_img.jpg';
@@ -10,7 +11,7 @@ import SteamImg from '../assets/steam_img.jpg';
 
 const Autopesut = () => {
     return (
-        <div className="autopesut">
+        <div className="autopesut" id="autopesut-section">
             <div className="Headline">
                 <h1>Yrityksemme tarjoamat palvelut.</h1>
             </div>

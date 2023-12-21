@@ -1,5 +1,6 @@
-import React from "react";
-import { Link } from 'react-scroll';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {   animateScroll as scroll } from 'react-scroll';
 import './footer.css';
 import Ig from '../assets/instagram.png';
 import Face from '../assets/facebook-icon.png';
@@ -8,9 +9,26 @@ import Phone from '../assets/phoneIcon.png';
 import Email from '../assets/email_Icon.png';
 import House from '../assets/hous_Icon.png';
 
+
+
+
 const Footer = () => {
+
+    
+
+    const scrollToTopAndNavigate = (route) => {
+        // Scroll to the top with smooth animation
+        scroll.scrollToTop({
+          duration: 100, // Adjust the duration as needed
+          smooth: 'easeInOutQuart', // You can try different easing functions
+        });
+    
+        // After scrolling, navigate to the desired route
+        window.location.href = route; // Use window.location.href for page navigation
+      };
     return ( 
         <div className="footer">
+            
             <div className="socials">
                 <div className="paragraph">Ole aina ajantasalla meidän someissa!</div>
                 <div className="socialBtns">
@@ -28,17 +46,21 @@ const Footer = () => {
                     <h1 className="sectionHeadline">Siirry sivulla</h1>
                     <Link className="navLink">Sivun alkuun</Link>
                     <Link className="navLink">About</Link>
-                    <Link className="navLink">Autopesut</Link>
+                    
+                    <Link to="/?scrollTo=autopesut-section" className="navLink">
+        Autopesut
+      </Link>
+
                     <Link className="navLink">Tuotteet</Link>
                     <Link className="navLink">Ota yhteyttä</Link>
                 </div>
                 <div className="ehdotSection">
                     <h1 className="sectionHeadline">Ehdot</h1>
-                    <Link className="ehdotLink">Käyttöehdot</Link>
-                    <Link className="ehdotLink">Tietosuojakäytäntö</Link>
-                    <Link className="ehdotLink">Oikeudelliset tiedot</Link>
-                    <Link className="ehdotLink">EULA</Link>
-                </div>
+                    <div className="ehdotLink" onClick={() => scrollToTopAndNavigate('/KayttoehdotPage')}> Käyttöehdot </div>
+                    <div className="ehdotLink" onClick={() => scrollToTopAndNavigate('/TietosuojakaytantoPage')}> Tietosuojakäytäntö </div>
+                    <div className="ehdotLink" onClick={() => scrollToTopAndNavigate('/oikeudellisettiedot')}>Oikeudelliset tiedot</div>
+                    <div className="ehdotLink"onClick={() => scrollToTopAndNavigate('/eula')}>EULA</div>
+                 </div>
                 <div className="addresSection">
                     <h1 className="sectionHeadline">Yhteystiedot</h1>
                     <div className="rivit">
@@ -62,6 +84,6 @@ const Footer = () => {
             </div>
         </div>
      );
-}
+};
  
 export default Footer;

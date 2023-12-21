@@ -8,7 +8,7 @@ import LaatuImg from '../assets/laatu_img.jpg';
 
 const About = () => {
     return ( 
-        <div className="about">
+        <div className="about" id="about-section">
             <div className="bigcontainer">
                <div className="otsikkocontainer">
                     <h1 className="aboutotsikko">Autopesu edullisesti moderneilla

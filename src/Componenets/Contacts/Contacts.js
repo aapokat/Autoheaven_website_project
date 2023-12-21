@@ -3,14 +3,14 @@ import './contacts.css';
 import mailImg from '../assets/mail_Img.png';
 
 
-const Contacts = () => {
+const Contacts = ({ scrollToTop }) => {
     return ( 
-        <div className="contact">
+        <div className="contact" id="contacts-section">
             <div className="textSection">
                 <img src={mailImg} alt="letterImage" />
                 <p className="textHeadline">Ota Yhteyttä</p>
                 <p className="text">Lähetä meille viestiä jos on kysyttävää <br /> ja jotain lisätekstiä tähän koska tää on <br /> niin tyhjä</p>
-                <button className="palaaBtn">Palaa alkuun</button>
+                <button className="palaaBtn" onClick={scrollToTop}> Palaa alkuun </button>
             </div>
             <form className="formSection">
                 <p className="formHeadline">Lähetä viesti</p>

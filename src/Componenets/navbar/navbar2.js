@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import './navbar.css';
+import './navbar2.css';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
@@ -29,7 +28,7 @@ const ScrolledDiv = ({ children, className }) => {
   );
 };
 
-const Navbar = () => {
+const Navbar2 = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const mobileMenuRef = useRef(null);
 
@@ -78,15 +77,15 @@ const Navbar = () => {
           <div className="bar"></div>
         </div>
         <div className="links">
-        <ScrollLink to="landing-section" smooth={true} duration={800} offset={-80} className="linkMenuItem">Etusivu</ScrollLink>
-        <ScrollLink to="about-section" smooth={true} duration={800} offset={-80} className="linkMenuItem">Tieto</ScrollLink>
-        <ScrollLink to="autopesut-section" smooth={true} duration={800} offset={-80} className="linkMenuItem">Autopesut</ScrollLink>
-        <ScrollLink to="tuotteet-section" smooth={true} duration={800} offset={-80} className="linkMenuItem">Tuotteet</ScrollLink>
-        <ScrollLink to="contacts-section" smooth={true} duration={800} offset={-80} className="linkMenuItem">Ota yhteyttä</ScrollLink>
+          <Link className="linkMenuItem">Etusivu</Link>
+          <Link className="linkMenuItem">Tieto</Link>
+          <Link className="linkMenuItem">Autopesut</Link>
+          <Link className="linkMenuItem">Tuotteet</Link>
+          <Link className="linkMenuItem">Ota yhteyttä</Link>
         </div>
       </div>
     </ScrolledDiv>
   );
 };
 
-export default Navbar;
+export default Navbar2;

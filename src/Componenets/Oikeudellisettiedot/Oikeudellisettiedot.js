@@ -3,11 +3,11 @@ import './oikeudellisettiedot.css';
 
 function Oikeudellisettiedot() {
   return (
-    <div className="App">
-      <header className="oikeustietocont">
+    <div className="joku">
+    <h1 className="oikeuspaaotsikko">AutoHeaven - Yrityksen Oikeudelliset Tiedot</h1>
+    <div className="tietot">
         <div className='oikeuslaatikko'>
-        <h1 className="oikeusotsikko">AUTOHEAVEN AUTOPESULA - YRITYKSEN OIKEUDELLISET TIEDOT</h1>
-        <h1>1. Yrityksen tiedot:</h1>
+        <h1 className='oikeusotsikko'>1. Yrityksen tiedot:</h1>
         <p className="oikeusteksti">AutoHeaven Autopesula Oy
         Osoite: Esimerkkikatu 123, 00100 Helsinki
         Y-tunnus: 1234567-8
@@ -30,7 +30,7 @@ function Oikeudellisettiedot() {
         <p className="oikeusteksti">AutoHeaven Autopesula voi päivittää näitä oikeudellisia tietoja ilmoittamalla muutoksista verkkosivuillaan tai suoraan asiakkaille.</p>
 
         </div>
-      </header>
+    </div>
     </div>
   );
 }

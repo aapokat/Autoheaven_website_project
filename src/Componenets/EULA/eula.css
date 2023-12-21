@@ -1,22 +1,27 @@
-.Eulacont {
-    background-color:#F8F9FB;
-    text-align: center;
-    justify-content: column;
-    height: 1080px;
-    align-items: center;
+.Eulalaatikko {
+    color: black;
+    background-color: white;
+    width: 65%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    font-family: 'poppins';
+}
+
+.EulaSivu {
     display: flex;
     justify-content: center;
+    
+}
 
+.eulaotsikko {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
 }
-.eulaotsikko{
-    color: black;
-    font-size: 30px;
-}
-.eulateksti{
-    color: black;
-    font-size: 20px;
-}
-.Eulalaatikko {
-    width: 80%;
-    align-items: center;
+
+.eulateksti {
+    padding-bottom: 2rem;
 }

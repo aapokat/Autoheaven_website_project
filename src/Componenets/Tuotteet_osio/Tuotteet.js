@@ -7,7 +7,7 @@ const Tuotteet = () => {
     const navigate = useNavigate();
     
     return ( 
-        <div className="Tuotteet">
+        <div className="Tuotteet" id="tuotteet-section">
             <div className="otsikkocont">
             <br></br>
             <h1 className="otsikkotuote">Tuotevalikoima</h1>
