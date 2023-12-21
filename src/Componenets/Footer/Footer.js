@@ -32,9 +32,15 @@ const Footer = () => {
             <div className="socials">
                 <div className="paragraph">Ole aina ajantasalla meidän someissa!</div>
                 <div className="socialBtns">
+                    <a href='https://www.instagram.com/'>
                     <img src={Ig} alt="Instagram Icon" className="socialImg" />
+                    </a>
+                    <a href='https://www.facebook.com/'>
                     <img src={Face} alt="Facebook Icon" className="socialImg" />
+                    </a>
+                    <a href='https://twitter.com/'>
                     <img src={Twitter} alt="Twitter Icon" className="socialImg" />
+                    </a>
                 </div>
             </div>
             <div className="footerDownSection">
