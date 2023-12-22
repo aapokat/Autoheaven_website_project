@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import './navbar2.css';
 import Logo from '../assets/logo.png';
-import { Link } from 'react-scroll';
+
 
 const ScrolledDiv = ({ children, className }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -77,11 +78,11 @@ const Navbar2 = () => {
           <div className="bar"></div>
         </div>
         <div className="links">
-          <Link className="linkMenuItem">Etusivu</Link>
-          <Link className="linkMenuItem">Tieto</Link>
-          <Link className="linkMenuItem">Autopesut</Link>
-          <Link className="linkMenuItem">Tuotteet</Link>
-          <Link className="linkMenuItem">Ota yhteyttä</Link>
+        <Link className="linkMenuItem" to="/?scrollTo=landing-section">Etusivu</Link>
+        <Link className="linkMenuItem" to="/?scrollTo=about-section">Tietoa</Link>
+        <Link className="linkMenuItem" to="/?scrollTo=autopesut-section">Autopesut</Link>
+        <Link className="linkMenuItem" to="/?scrollTo=tuotteet-section">Tuotteet</Link>
+        <Link className="linkMenuItem" to="/?scrollTo=contacts-section">Ota yhteyttä</Link>
         </div>
       </div>
     </ScrolledDiv>

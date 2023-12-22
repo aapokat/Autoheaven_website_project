@@ -1,6 +1,6 @@
 import Navbar2 from "../../Componenets/navbar/navbar2";
 import EULA from '../../Componenets/EULA/Eula';
-import Footer from '../../Componenets/Footer/Footer';
+import Footer2 from '../../Componenets/Footer/Footer2';
 
 const EULAsivu = () => {
     return (
@@ -8,7 +8,7 @@ const EULAsivu = () => {
     <>
     <Navbar2/>
     <EULA/>
-    <Footer/>
+    <Footer2/>
     </>
 
 

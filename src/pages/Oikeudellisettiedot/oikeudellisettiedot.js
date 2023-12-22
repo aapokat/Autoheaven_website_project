@@ -1,6 +1,6 @@
 import Navbar2 from "../../Componenets/navbar/navbar2";
 import Oikeudellisettiedot from '../../Componenets/Oikeudellisettiedot/Oikeudellisettiedot';
-import Footer from '../../Componenets/Footer/Footer';
+import Footer2 from '../../Componenets/Footer/Footer2';
 
 const OikeudellisettiedotSivu = () => {
     return (
@@ -8,7 +8,7 @@ const OikeudellisettiedotSivu = () => {
     <>
     <Navbar2/>
     <Oikeudellisettiedot/>
-    <Footer/>
+    <Footer2/>
     </>
 
 

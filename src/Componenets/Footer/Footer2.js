@@ -1,8 +1,7 @@
-
+import React from 'react';
 import { Link } from 'react-router-dom';
-import React from "react";
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import './footer.css';
+import {   animateScroll as scroll } from 'react-scroll';
+import './footer2.css';
 import Ig from '../assets/instagram.png';
 import Face from '../assets/facebook-icon.png';
 import Twitter from '../assets/twitter.png';
@@ -13,7 +12,7 @@ import House from '../assets/hous_Icon.png';
 
 
 
-const Footer = () => {
+const Footer2 = () => {
 
     
 
@@ -51,11 +50,11 @@ const Footer = () => {
                 </div>
                 <div className="navSection">
                     <h1 className="sectionHeadline">Siirry sivulla</h1>
-                    <ScrollLink className="navLink" to="landing-section" smooth={true} duration={800} offset={-80} >Etusivu</ScrollLink>
-                    <ScrollLink className="navLink" to="about-section" smooth={true} duration={800} offset={-80} >Tieto</ScrollLink>
-                    <ScrollLink className="navLink" to="autopesut-section" smooth={true} duration={800} offset={-80} >Autopesut</ScrollLink>
-                    <ScrollLink className="navLink" to="tuotteet-section" smooth={true} duration={800} offset={-80} >Tuotteet</ScrollLink>
-                    <ScrollLink className="navLink" to="contacts-section" smooth={true} duration={800} offset={-80} >Ota yhteyttä</ScrollLink>
+                    <Link className="navLink" to="/?scrollTo=landing-section">Etusivu</Link>
+                    <Link className="navLink" to="/?scrollTo=about-section">Tietoa</Link>
+                    <Link className="navLink" to="/?scrollTo=autopesut-section">Autopesut</Link>
+                    <Link className="navLink" to="/?scrollTo=tuotteet-section">Tuotteet</Link>
+                    <Link className="navLink" to="/?scrollTo=contacts-section">Ota yhteyttä</Link>
                 </div>
                 <div className="ehdotSection">
                     <h1 className="sectionHeadline">Ehdot</h1>
@@ -89,4 +88,4 @@ const Footer = () => {
      );
 };
  
-export default Footer;
+export default Footer2;

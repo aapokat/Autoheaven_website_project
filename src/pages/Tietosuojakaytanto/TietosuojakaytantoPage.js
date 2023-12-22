@@ -1,5 +1,5 @@
 import Navbar2 from "../../Componenets/navbar/navbar2";
-import Footer from "../../Componenets/Footer/Footer";
+import Footer2 from "../../Componenets/Footer/Footer2";
 import Tietosuoja from '../../Componenets/Tietosuojakaytanto/Tietosuojakaytanto';
 
 const TietosuojakaytantoPage = () => {
@@ -7,7 +7,7 @@ const TietosuojakaytantoPage = () => {
     <>
     <Navbar2/>
     <Tietosuoja/>
-    <Footer/>
+    <Footer2/>
     </>
     );
 }
