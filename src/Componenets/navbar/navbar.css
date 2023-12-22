@@ -230,8 +230,7 @@
       display: none;
     }
     .Logo {
-      height: 1rem;
-      width: 4.5rem;
+      display: none;
     }
   }
 
