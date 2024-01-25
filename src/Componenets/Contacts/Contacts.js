@@ -9,7 +9,7 @@ const Contacts = ({ scrollToTop }) => {
             <div className="textSection">
                 <img src={mailImg} alt="letterImage" />
                 <p className="textHeadline">Ota Yhteyttä</p>
-                <p className="text">Lähetä meille viestiä jos on kysyttävää <br /> tai jos teillä on jotain palautetta<br /> ihan rohkeasti vaan!</p>
+                <p className="text">Lähetä meille viestiä jos on kysyttävää <br /> tai jos teillä on jotain palautetta<br /> ihan rohkeasti</p>
                 <button className="palaaBtn" onClick={scrollToTop}> Palaa alkuun </button>
             </div>
             <form className="formSection">
@@ -28,7 +28,7 @@ const Contacts = ({ scrollToTop }) => {
                     </div>
                 </div>
                 <div className="formRowBtn">
-                <button className="sendBtn">Lähetä</button>
+                <button className="sendBtn" onClick={scrollToTop} >Lähetä</button>
                 </div>
             </form>
         </div>

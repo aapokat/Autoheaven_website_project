@@ -5,6 +5,7 @@ import Oikeudellisettiedot from './pages/Oikeudellisettiedot/oikeudellisettiedot
 import EULA from './pages/EULA/eula';
 import Kayttoehdot from './pages/Kayttoehdot/KayttoehdotPage';
 import Tietosuojakaytanto from './pages/Tietosuojakaytanto/TietosuojakaytantoPage';
+import NotFound from './pages/404/404Page';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           path='/'
           element={<Home/>}
         />
+        <Route path='*' element={<NotFound />} />
         <Route
           path='/Tuote/:id'
           element={<Tuote_1/>}

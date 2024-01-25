@@ -215,6 +215,9 @@
   }
 
   @media only screen and (max-width: 450px) {
+    .navbar {
+      height: 9rem;
+    }
     .linkMenu {
       position: relative;
     }
@@ -229,8 +232,11 @@
     .lokoText {
       display: none;
     }
-    .Logo {
+     .navbar .Logo{
       display: none;
+    }
+    .navbar.scrolled .Logo {
+      display: block;
     }
   }
 
@@ -239,8 +245,6 @@
       height: 3rem;
       width: 5rem;
     }
-    .navbar {
-      height: 5rem;
-    }
+    
 
   } 
