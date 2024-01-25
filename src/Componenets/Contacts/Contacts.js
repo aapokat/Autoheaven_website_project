@@ -25,7 +25,7 @@ const Contacts = ({ scrollToTop }) => {
                 <p className="textHeadline">Ota Yhteyttä</p>
                 <p className="text">Lähetä meille viestiä jos on kysyttävää <br /> tai jos teillä on jotain palautetta<br /> ihan rohkeasti</p>
                 {/* <button className="palaaBtn" onClick={scrollToTop}> Palaa alkuun </button> */}
-                <Link className="palaaBtn" to="/?scrollTo=landing-section">Etusivu</Link>
+                <Link className="palaaBtn" to="/?scrollTo=landing-section">Palaa alkuun</Link>
             </div>
             <form className="formSection">
                 <p className="formHeadline">Lähetä viesti</p>
